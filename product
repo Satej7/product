@@ -1,0 +1,33 @@
+[
+    {
+      productId: 1,
+      productName: "Garden cart",
+      productCode: "GDN-003",
+      releaseDate: "March 18 2017",
+      description: "15 gallon capacity..",
+      price: 32.99,
+      starRating: 4,
+      imageURL: "https://images-na.ssl-images-amazon.com/images/I/91-almuwslL._SL1500_.jpg"
+    },
+    {
+      productId: 2,
+      productName: "Garden cart",
+      productCode: "GDN-003",
+      releaseDate: "March 18 2017",
+      description: "15 gallon capacity..",
+      price: 32.99,
+      starRating: 3,
+      imageURL: "https://images.homedepot-static.com/productImages/11058e00-a150-477e-be94-5a795cbac776/svn/rubbermaid-commercial-products-yard-carts-fg564200bla-64_1000.jpg"
+    },
+    {
+      productId: 3,
+      productName: "Garden cart",
+      productCode: "GDN-003",
+      releaseDate: "March 18 2017",
+      description: "15 gallon capacity..",
+      price: 32.99,
+      starRating: 2,
+      imageURL: "https://images-na.ssl-images-amazon.com/images/I/81u7Z4TdueL._SL1500_.jpg"
+    }
+
+  ]

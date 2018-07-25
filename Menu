@@ -1,0 +1,538 @@
+{
+	"root": {
+		"menu": [
+			{
+				"privileges": {
+					"_value": "",
+					"_matchAll": "0"
+				},
+				"_title": "KEY_DASHBOARD",
+				"_url": "/DashBoard.aspx",
+				"_tabindex": "8"
+			},
+			{
+				"privileges": {
+					"_value": "1|2|3|5|31|32|33|34|35|36|37|38|39|40|41|42|58|109|134",
+					"_matchAll": "0",
+					"_tabindex": "9"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "2|4",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_USER",
+						"_url": "/UserAdmin/CreateUser.aspx",
+						"_tabindex": "10"
+					},
+					{
+						"privileges": {
+							"_value": "5",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_EDIT_USER",
+						"_url": "/UserAdmin/SearchUser.aspx",
+						"_tabindex": "11"
+					},
+					{
+						"privileges": {
+							"_value": "58",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_ASSIGN_DELEGATE",
+						"_url": "/UserAdmin/AssignDelegation.aspx",
+						"_tabindex": "12"
+					},
+					{
+						"privileges": {
+							"_value": "58",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_REVOKE_DELEGATE",
+						"_url": "/UserAdmin/DelegationSearchAndRevoke.aspx",
+						"_tabindex": "13"
+					},
+					{
+						"privileges": {
+							"_value": "1",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_ROLE",
+						"_url": "/UserAdmin/CreateRole.aspx",
+						"_tabindex": "14"
+					},
+					{
+						"privileges": {
+							"_value": "3",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_EDIT_ROLE",
+						"_url": "/UserAdmin/EditRole.aspx",
+						"_tabindex": "15"
+					},
+					{
+						"privileges": {
+							"_value": "2",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SET_WORKFLOW_RULES",
+						"_url": "/WorkFlowRuleEditor/CreateWorkFlowRules.aspx",
+						"_tabindex": "16"
+					},
+					{
+						"privileges": {
+							"_value": "169",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_UPLOAD_WORKFLOW_RULES",
+						"_url": "/WorkFlowRuleEditor/WorkflowRuleUpload.aspx",
+						"_tabindex": "16"
+					},
+					{
+						"privileges": {
+							"_value": "31|32|33|34|35|36|37|38|39|40|41|42|67",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_MASTER_UPLOAD",
+						"_url": "/UserAdmin/MasterDataUpload.aspx",
+						"_tabindex": "17"
+					},
+					{
+						"privileges": {
+							"_value": "109",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_MASTER_DATA",
+						"_url": "/UserAdmin/MasterData.aspx",
+						"_tabindex": "17"
+					},
+					{
+						"privileges": {
+							"_value": "133",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_RECOCILIATION_REPORT",
+						"_url": "/UserAdmin/ReconciliationReport.aspx",
+						"_tabindex": "18"
+					},
+					{
+						"privileges": {
+							"_value": "134",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_EXPORT_FUNDPAYMENT",
+						"_url": "/UserAdmin/ExportFundPayment.aspx",
+						"_tabindex": "41"
+					}
+				],
+				"_title": "KEY_ADMINISTRATION"
+			},
+			{
+				"privileges": {
+					"_value": "7|9|11|85|86|53|54|23|24|25|103|105",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "7|85|86",
+							"_matchAll": "0"
+						},
+						"innersubmenu": [
+							{
+								"privileges": {
+									"_value": "7",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_CREATE_REGULAR_PROMOTION",
+								"_url": "/Promotion/PromotionHeaderTransient.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d&creationmode=MA%3d%3d-nf%2f41zb1D7w%3d",
+								"_tabindex": "20"
+							},
+							{
+								"privileges": {
+									"_value": "85",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_CRAETE_PROJECT_BASED_PROMOTION",
+								"_url": "/Promotion/PromotionHeaderTransient.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d&creationmode=MQ%3d%3d-Q2tti%2bBXr10%3d",
+								"_tabindex": "21"
+							},
+							{
+								"privileges": {
+									"_value": "86",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_CRAETE_TEMPLATE_BASED_PROMOTION",
+								"_url": "/Promotion/PromotionHeaderTransient.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d&creationmode=Mg%3d%3d-%2bHslOqEX9Z8%3d",
+								"_tabindex": "22"
+							}
+						],
+						"_title": "KEY_CREATE_PROMOTION",
+						"_tabindex": "19"
+					},
+					{
+						"privileges": {
+							"_value": "9",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_PROMOTION",
+						"_url": "/Promotion/PromotionSearch.aspx",
+						"_tabindex": "20"
+					},
+					{
+						"privileges": {
+							"_value": "11",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_PROMOTION_CALENDAR",
+						"_url": "/Promotion/PromotionCalendar.aspx",
+						"_tabindex": "21"
+					},
+					{
+						"privileges": {
+							"_value": "60",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_UPLOAD_PROMOTION",
+						"_url": "/Promotion/PromotionUpload.aspx",
+						"_tabindex": "24"
+					},
+					{
+						"privileges": {
+							"_value": "103|105",
+							"_matchAll": "0"
+						},
+						"innersubmenu": [
+							{
+								"privileges": {
+									"_value": "103",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_CREATE_TEMPLATE",
+								"_url": "/Template/TemplateHeaderTransient.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d",
+								"_tabindex": "19"
+							},
+							{
+								"privileges": {
+									"_value": "105",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_SEARCH_TEMPLATE",
+								"_url": "/Template/TemplateSearch.aspx",
+								"_tabindex": "20"
+							}
+						],
+						"_title": "KEY_TEMPLATE",
+						"_tabindex": "18"
+					},
+					{
+						"privileges": {
+							"_value": "23|24|25",
+							"_matchAll": "0"
+						},
+						"innersubmenu": [
+							{
+								"privileges": {
+									"_value": "23",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_ADD_LEARNING",
+								"_url": "/Promotion/PromotionSearch.aspx?IsLrn=1",
+								"_tabindex": "23"
+							},
+							{
+								"privileges": {
+									"_value": "24|25",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_SEARCH_LEARNING",
+								"_url": "/PromotionLearning/SearchLearning.aspx",
+								"_tabindex": "24"
+							}
+						],
+						"_title": "KEY_LEARNINGS",
+						"_tabindex": "22"
+					},
+					{
+						"privileges": {
+							"_value": "53|54",
+							"_matchAll": "0"
+						},
+						"innersubmenu": [
+							{
+								"privileges": {
+									"_value": "53|54",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_CREATE_SCENARIO",
+								"_url": "/ScenarioPlanning/CreateScenario.aspx"
+							},
+							{
+								"privileges": {
+									"_value": "53|54",
+									"_matchAll": "0"
+								},
+								"_title": "KEY_SEARCH_SCENARIO",
+								"_url": "/ScenarioPlanning/SearchScenario.aspx"
+							}
+						],
+						"_title": "KEY_SCENARIOPLANNING"
+					}
+				],
+				"_title": "KEY_PROMOTION",
+				"_tabindex": "18"
+			},
+			{
+				"privileges": {
+					"_value": "43|44|45|46|47|48",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "43",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_BUDGET",
+						"_url": "/Budget/BudgetSearch.aspx"
+					},
+					{
+						"privileges": {
+							"_value": "45",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_BUDGET_UPLOAD",
+						"_url": "/Budget/BudgetUpload.aspx"
+					},
+					{
+						"privileges": {
+							"_value": "46",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_BUDGET_TRANSFER",
+						"_url": "/Budget/BudgetTransfer.aspx"
+					},
+					{
+						"privileges": {
+							"_value": "47",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_BUDGET_APPROVE",
+						"_url": "/Budget/BudgetApproval.aspx"
+					},
+					{
+						"privileges": {
+							"_value": "48",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_BUDGET_YEAR_END_MAP",
+						"_url": "/Budget/BudgetYearEndMapping.aspx"
+					}
+				],
+				"_title": "KEY_BUDGET"
+			},
+			{
+				"privileges": {
+					"_value": "91|93|135",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "91",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_PROJECT",
+						"_url": "/Project/ProjectHeaderTransient.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d",
+						"_tabindex": "19"
+					},
+					{
+						"privileges": {
+							"_value": "93",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_PROJECT",
+						"_url": "/Project/ProjectSearch.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d",
+						"_tabindex": "20"
+					},
+					{
+						"privileges": {
+							"_value": "135",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_UPLOAD_PROJECT",
+						"_url": "/Project/ProjectUpload.aspx?action=MQ%3d%3d-Q2tti%2bBXr10%3d",
+						"_tabindex": "24"
+					}
+				],
+				"_title": "KEY_PROJECT",
+				"_tabindex": "18"
+			},
+			{
+				"privileges": {
+					"_value": "87|88",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "87",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_BUNDLE",
+						"_url": "/Bundle/BundleHeaderTransient.aspx?action=OA%3d%3d-tQvJJkSHRzc%3d",
+						"_tabindex": "26"
+					},
+					{
+						"privileges": {
+							"_value": "88",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_BUNDLE",
+						"_url": "/Bundle/BundleSearch.aspx",
+						"_tabindex": "27"
+					}
+				],
+				"_title": "KEY_BUNDLE",
+				"_tabindex": "25"
+			},
+			{
+				"privileges": {
+					"_value": "110|111|112|117|118|122|123",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "110",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_FUND",
+						"_url": "/Fund/CreateNewFund.aspx",
+						"_tabindex": "31"
+					},
+					{
+						"privileges": {
+							"_value": "111|117|118|122|123",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_EDIT_FUND",
+						"_url": "/Fund/SearchEditFund.aspx",
+						"_tabindex": "32"
+					},
+					{
+						"privileges": {
+							"_value": "112",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_MASSIVE_CREATION_FUND",
+						"_url": "/Fund/MassiveFundUpload.aspx",
+						"_tabindex": "33"
+					}
+				],
+				"_title": "KEY_FUND",
+				"_tabindex": "30"
+			},
+			{
+				"privileges": {
+					"_value": "142",
+					"_matchAll": "0"
+				},
+				"submenu": {
+					"privileges": {
+						"_value": "142",
+						"_matchAll": "0"
+					},
+					"_title": "KEY_SEARCH_CLAIMS",
+					"_url": "/Claims/SearchClaims.aspx?CurrentPage=SearchClaims",
+					"_tabindex": "35"
+				},
+				"_title": "KEY_CLAIMS",
+				"_tabindex": "34"
+			},
+			{
+				"privileges": {
+					"_value": "113|114|115|116|119|144|150",
+					"_matchAll": "0"
+				},
+				"submenu": [
+					{
+						"privileges": {
+							"_value": "113",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CREATE_PAYMENT",
+						"_url": "/Payment/CreatePayment.aspx",
+						"_tabindex": "37"
+					},
+					{
+						"privileges": {
+							"_value": "114|119",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_PAYMENT",
+						"_url": "/Payment/SearchPayment.aspx?CurrentPage=SearchPayment",
+						"_tabindex": "38"
+					},
+					{
+						"privileges": {
+							"_value": "114|115",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_APPROVE_PAYMENT",
+						"_url": "/Payment/SearchPayment.aspx?CurrentPage=PendingApproval",
+						"_tabindex": "39"
+					},
+					{
+						"privileges": {
+							"_value": "116",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_MASSIVE_CREATION_PAYMENT",
+						"_url": "/Payment/MassivePaymentUpload.aspx",
+						"_tabindex": "40"
+					},
+					{
+						"privileges": {
+							"_value": "124",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_GENERATE_PROVISION",
+						"_url": "/Payment/GenerateProvision.aspx",
+						"_tabindex": "41"
+					},
+					{
+						"privileges": {
+							"_value": "144",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_CLAIM_PAYMENT",
+						"_url": "/ClaimPayment/CreateClaimPayment.aspx",
+						"_tabindex": "42"
+					},
+					{
+						"privileges": {
+							"_value": "150",
+							"_matchAll": "0"
+						},
+						"_title": "KEY_SEARCH_CLAIM_PAYMENT",
+						"_url": "/ClaimPayment/SearchClaimPayment.aspx",
+						"_tabindex": "43"
+					}
+				],
+				"_title": "KEY_PAYMENT",
+				"_tabindex": "36"
+			},
+			{
+				"privileges": {
+					"_value": "71|72|73|74|120|121|75|76|140|159",
+					"_matchAll": "0"
+				},
+				"_title": "KEY_REPORTS",
+				"_url": "/Reports/ReportsHome.aspx",
+				"_tabindex": "44"
+			}
+		]
+	}
+}
